@@ -7,7 +7,6 @@ namespace PasswordGenerator
     {
         static void Main(string[] args)
         {
-            PasswordManager passwordManager = new();
 
             Console.WriteLine("How many characters do you want in your password? ");
             string stringLength = Console.ReadLine() ?? "8";
